@@ -15,16 +15,16 @@ SHORT_TUT = "https://t.me/How_to_Download_7x/26"
 # Bot Configuration
 SESSION = "yato"
 TOKEN = "8221156994:AAEexLCFL2-wp6Qo-_2Pzk-WTFwRcaqV8uc"
-API_ID = ""
-API_HASH = ""
+API_ID = "38250529"
+API_HASH = "87ba30a53f394110c5d056562f9d7f94"
 WORKERS = 5
 
-DB_URI = "mongodb"
+DB_URI = "mongodb+srv://aaryansah954:QgDQRgyD7VUa7Eho@cluster0.wjo9zfm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = "yato"
 
 FSUBS = [[-1003016571084, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
-DB_CHANNEL =    # just put channel id dont add ""
+DB_CHANNEL =   # just put channel id dont add ""
 # Multiple Database Channels (can be set via bot settings)
 # DB_CHANNELS = {
 #     "-1002595092736": {"name": "Primary DB", "is_primary": True, "is_active": True},
